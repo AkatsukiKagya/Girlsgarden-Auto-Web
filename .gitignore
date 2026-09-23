@@ -1,4 +1,25 @@
-.git
-.idea
-.venv
-__pycache__
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Debug screenshots
+*_debug.png
